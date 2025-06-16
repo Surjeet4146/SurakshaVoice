@@ -1,15 +1,37 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_color">#6200EE</color>
-    <color name="primary_variant">#3700B3</color>
-    <color name="secondary_color">#03DAC6</color>
-    <color name="background_color">#121212</color>
-    <color name="surface_color">#1E1E1E</color>
-    <color name="error_color">#CF6679</color>
-    <color name="primary_text">#FFFFFF</color>
-    <color name="secondary_text">#B3FFFFFF</color>
-    <color name="neon_blue">#00FFFF</color>
-    <color name="neon_purple">#8A2BE2</color>
-    <color name="neon_green">#39FF14</color>
+    <!-- Neon Colors -->
+    <color name="neon_blue">#00D4FF</color>
+    <color name="neon_purple">#B644FF</color>
+    <color name="neon_green">#00FF87</color>
+    <color name="neon_pink">#FF0080</color>
+    <color name="neon_orange">#FF6B00</color>
+    <color name="neon_cyan">#00FFFF</color>
+
+    <!-- Background Colors -->
+    <color name="dark_background">#0A0A0A</color>
+    <color name="dark_secondary">#1A1A1A</color>
+    <color name="card_background">#1E1E1E</color>
+    <color name="card_background_light">#2A2A2A</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="text_accent">#00D4FF</color>
+
+    <!-- Status Colors -->
+    <color name="success_green">#00FF87</color>
+    <color name="fraud_red">#FF4757</color>
+    <color name="error_orange">#FF6B00</color>
+    <color name="warning_yellow">#FFC107</color>
+
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#0D1421</color>
+    <color name="gradient_middle">#1A1A2E</color>
+    <color name="gradient_end">#16213E</color>
 </resources>

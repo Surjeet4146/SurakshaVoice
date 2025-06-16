@@ -1,12 +1,23 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <objectAnimator
-        android:propertyName="translationX"
-        android:duration="50"
+        android:duration="100"
+        android:property="translationX"
         android:valueFrom="0dp"
-        android:valueTo="10dp"
+        android:valueTo="50dp"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="100"
+        android:property="translationX"
+        android:valueFrom="50dp"
+        android:valueTo="-25dp"
         android:valueType="floatType"
-        android:repeatCount="5"
-        android:repeatMode="reverse" />
+        android:startOffset="100" />
+    <objectAnimator
+        android:duration="100"
+        android:property="translationX"
+        android:valueFrom="-25dp"
+        android:valueTo="0dp"
+        android:valueType="floatType"
+        android:startOffset="200" />
 </set>

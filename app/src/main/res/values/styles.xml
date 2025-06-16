@@ -1,19 +1,86 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/primary_color</item>
-        <item name="colorPrimaryVariant">@color/primary_variant</item>
-        <item name="colorSecondary">@color/secondary_color</item>
-        <item name="android:colorBackground">@color/background_color</item>
-        <item name="colorSurface">@color/surface_color</item>
-        <item name="colorError">@color/error_color</item>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/neon_blue</item>
+        <item name="colorPrimaryVariant">@color/neon_purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/neon_green</item>
+        <item name="colorSecondaryVariant">@color/neon_pink</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="colorBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="actionBarStyle">@style/CustomActionBar</item>
     </style>
 
-    <style name="NeonButton">
-        <item name="android:background">@drawable/neon_button_background</item>
-        <item name="android:textColor">@color/primary_text</item>
+    <!-- Custom Action Bar Style -->
+    <style name="CustomActionBar" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="android:background">@drawable/gradient_background</item>
+        <item name="titleTextStyle">@style/ActionBarTitle</item>
+    </style>
+
+    <!-- Action Bar Title Style -->
+    <style name="ActionBarTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/neon_blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <!-- Custom TextInputLayout Style -->
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/neon_blue</item>
+        <item name="hintTextColor">@color/neon_blue</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+
+    <!-- Neon Button Style -->
+    <style name="NeonButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:padding">12dp</item>
+        <item name="android:background">@drawable/neon_button_background</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:stateListAnimator">@animator/button_state_animator</item>
+        <item name="cornerRadius">28dp</item>
+    </style>
+
+    <!-- Title Text Style -->
+    <style name="NeonTitleText">
+        <item name="android:textColor">@color/neon_blue</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:shadowColor">@color/neon_blue</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+
+    <!-- Result Card Text Style -->
+    <style name="ResultText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="NeonCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
     </style>
 </resources>
