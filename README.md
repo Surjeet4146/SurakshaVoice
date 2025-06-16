@@ -307,7 +307,7 @@ We welcome contributions from the community! Please follow these guidelines:
 
 This project was developed for **Suraksha Hackathon 2025** by:
 
-- **[Surjeet Singh](https://github.com/Surjeet4146)** - Lead Developer & UI/UX
+- **[Surjeet Yadav](https://github.com/Surjeet4146)** - Lead Developer & UI/UX
 - **[Reshma Navale](https://github.com/reshmanawale27)** - AI/ML Engineer & Backend
 
 ## 📄 License
