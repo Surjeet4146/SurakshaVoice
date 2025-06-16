@@ -1,0 +1,19 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="colorError">@color/error_color</item>
+    </style>
+
+    <style name="NeonButton">
+        <item name="android:background">@drawable/neon_button_background</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>

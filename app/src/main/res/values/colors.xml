@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#6200EE</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="secondary_color">#03DAC6</color>
+    <color name="background_color">#121212</color>
+    <color name="surface_color">#1E1E1E</color>
+    <color name="error_color">#CF6679</color>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#B3FFFFFF</color>
+    <color name="neon_blue">#00FFFF</color>
+    <color name="neon_purple">#8A2BE2</color>
+    <color name="neon_green">#39FF14</color>
+</resources>
